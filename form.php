@@ -1,5 +1,4 @@
 <?php
-
 if(isset($_POST['submit'])){
 	chdir("uploads");
 	$otdel = $_POST['otdel'];
@@ -50,6 +49,5 @@ if(isset($_POST['submit'])){
 	}
 
 }
-
 ?>
 <a href="index.php">Вернутся на загрузку файлов </a> 
