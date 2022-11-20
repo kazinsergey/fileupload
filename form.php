@@ -1,9 +1,4 @@
 <?php
-// echo $_FILES['filename']['size'] . '<br>'; // размер в байтах
-// echo $_FILES['filename']['name'] . '<br>'; // выводим имя файла
-// echo $_FILES['filename']['tmp_name'];
-
-// 1kb = 1024b и 1mb = 1024kb // 2 * 1024 * 1024
 
 if(isset($_POST['submit'])){
 	chdir("uploads");
@@ -55,8 +50,6 @@ if(isset($_POST['submit'])){
 	}
 
 }
-
-
 
 ?>
 <a href="index.php">Вернутся на загрузку файлов </a> 
